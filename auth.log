@@ -1,0 +1,184 @@
+2025-03-27 04:15:02,978 - WARNING -  * Debugger is active!
+2025-03-27 04:15:02,980 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:15:03,119 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:03] "GET / HTTP/1.1" 200 -
+2025-03-27 04:15:03,169 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:13,877 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\core\\file_manager.py', reloading
+2025-03-27 04:15:14,338 - WARNING -  * Debugger is active!
+2025-03-27 04:15:14,340 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:15:14,454 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:14] "GET / HTTP/1.1" 200 -
+2025-03-27 04:15:14,497 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:25,038 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:25] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-03-27 04:15:25,041 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:25] "GET /login HTTP/1.1" 200 -
+2025-03-27 04:15:25,053 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:32,054 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:32] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-03-27 04:15:32,069 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:32,072 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:15:32,094 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:32] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=jSHMtMzcPlIuR5joY5rg HTTP/1.1" 200 -
+2025-03-27 04:15:32,103 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-27 04:15:40,653 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:40] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-03-27 04:15:40,670 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:40,671 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:15:40,680 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=jSHMtMzcPlIuR5joY5rg HTTP/1.1[0m" 304 -
+2025-03-27 04:15:40,690 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-27 04:15:55,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:15:55,652 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:15:55,653 - INFO -  * Restarting with stat
+2025-03-27 04:15:56,101 - WARNING -  * Debugger is active!
+2025-03-27 04:15:56,102 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:15:56,243 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:56] "GET / HTTP/1.1" 200 -
+2025-03-27 04:15:56,246 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:56] "GET / HTTP/1.1" 200 -
+2025-03-27 04:15:56,289 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:56,293 - INFO - 127.0.0.1 - - [27/Mar/2025 04:15:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:16:07,053 - INFO - 127.0.0.1 - - [27/Mar/2025 04:16:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-03-27 04:16:07,087 - INFO - 127.0.0.1 - - [27/Mar/2025 04:16:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:16:07,088 - INFO - 127.0.0.1 - - [27/Mar/2025 04:16:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:16:07,096 - INFO - 127.0.0.1 - - [27/Mar/2025 04:16:07] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=GRa7ukZgXgaGVJR5z9As HTTP/1.1" 200 -
+2025-03-27 04:18:02,941 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\core\\security.py', reloading
+2025-03-27 04:18:02,972 - INFO -  * Restarting with stat
+2025-03-27 04:18:03,412 - WARNING -  * Debugger is active!
+2025-03-27 04:18:03,415 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:18:03,538 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:03] "GET / HTTP/1.1" 200 -
+2025-03-27 04:18:03,583 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:18:12,757 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:18:12,778 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:12] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:18:12,796 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:18:21,922 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:21] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:18:21,928 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:21] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:18:21,943 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:18:36,919 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:36] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:18:36,935 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:18:43,124 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:43] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:18:43,131 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:43] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:18:43,145 - INFO - 127.0.0.1 - - [27/Mar/2025 04:18:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:21:53,680 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:21:53,680 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:21:53,682 - INFO -  * Restarting with stat
+2025-03-27 04:21:54,182 - WARNING -  * Debugger is active!
+2025-03-27 04:21:54,183 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:21:54,279 - INFO - 127.0.0.1 - - [27/Mar/2025 04:21:54] "GET / HTTP/1.1" 200 -
+2025-03-27 04:21:54,283 - INFO - 127.0.0.1 - - [27/Mar/2025 04:21:54] "GET / HTTP/1.1" 200 -
+2025-03-27 04:21:54,328 - INFO - 127.0.0.1 - - [27/Mar/2025 04:21:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:21:54,332 - INFO - 127.0.0.1 - - [27/Mar/2025 04:21:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:22:09,650 - INFO - 127.0.0.1 - - [27/Mar/2025 04:22:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:22:09,663 - INFO - 127.0.0.1 - - [27/Mar/2025 04:22:09] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:22:09,690 - INFO - 127.0.0.1 - - [27/Mar/2025 04:22:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:22:21,504 - INFO - 127.0.0.1 - - [27/Mar/2025 04:22:21] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:22:21,511 - INFO - 127.0.0.1 - - [27/Mar/2025 04:22:21] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:22:21,526 - INFO - 127.0.0.1 - - [27/Mar/2025 04:22:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:28:19,478 - INFO - 127.0.0.1 - - [27/Mar/2025 04:28:19] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:28:19,495 - INFO - 127.0.0.1 - - [27/Mar/2025 04:28:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-27 04:28:43,770 - INFO - 127.0.0.1 - - [27/Mar/2025 04:28:43] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:28:43,780 - INFO - 127.0.0.1 - - [27/Mar/2025 04:28:43] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:28:43,796 - INFO - 127.0.0.1 - - [27/Mar/2025 04:28:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:29:07,007 - INFO - 127.0.0.1 - - [27/Mar/2025 04:29:07] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:29:07,017 - INFO - 127.0.0.1 - - [27/Mar/2025 04:29:07] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:29:07,031 - INFO - 127.0.0.1 - - [27/Mar/2025 04:29:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:32:13,123 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\app.py', reloading
+2025-03-27 04:32:13,165 - INFO -  * Restarting with stat
+2025-03-27 04:32:13,611 - WARNING -  * Debugger is active!
+2025-03-27 04:32:13,613 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:32:13,726 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:13] "GET / HTTP/1.1" 200 -
+2025-03-27 04:32:13,770 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:32:51,834 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:32:51,884 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:51] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:32:51,903 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:32:51,904 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:32:51,930 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:51] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=szUMZvIkXQ3NTAUMHMHc HTTP/1.1" 200 -
+2025-03-27 04:32:51,938 - INFO - 127.0.0.1 - - [27/Mar/2025 04:32:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-27 04:34:57,441 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:34:57,442 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:34:57,443 - INFO -  * Restarting with stat
+2025-03-27 04:34:57,952 - WARNING -  * Debugger is active!
+2025-03-27 04:34:57,956 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:34:58,074 - INFO - 127.0.0.1 - - [27/Mar/2025 04:34:58] "GET / HTTP/1.1" 200 -
+2025-03-27 04:34:58,078 - INFO - 127.0.0.1 - - [27/Mar/2025 04:34:58] "GET / HTTP/1.1" 200 -
+2025-03-27 04:34:58,127 - INFO - 127.0.0.1 - - [27/Mar/2025 04:34:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-27 04:34:58,130 - INFO - 127.0.0.1 - - [27/Mar/2025 04:34:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:35:12,579 - INFO - 127.0.0.1 - - [27/Mar/2025 04:35:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:35:12,719 - INFO - 127.0.0.1 - - [27/Mar/2025 04:35:12] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:35:12,767 - INFO - 127.0.0.1 - - [27/Mar/2025 04:35:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:35:12,769 - INFO - 127.0.0.1 - - [27/Mar/2025 04:35:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:35:12,808 - INFO - 127.0.0.1 - - [27/Mar/2025 04:35:12] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=bvM809b8Lh6B1a5GSloo HTTP/1.1" 200 -
+2025-03-27 04:36:37,127 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\app.py', reloading
+2025-03-27 04:36:37,160 - INFO -  * Restarting with stat
+2025-03-27 04:36:37,640 - WARNING -  * Debugger is active!
+2025-03-27 04:36:37,642 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:36:37,761 - INFO - 127.0.0.1 - - [27/Mar/2025 04:36:37] "GET / HTTP/1.1" 200 -
+2025-03-27 04:36:37,809 - INFO - 127.0.0.1 - - [27/Mar/2025 04:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:37:02,852 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:37:02,942 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:02] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:37:02,964 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:37:02,965 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:37:02,993 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:02] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=YmaqMbLXx3Rp1Qbrl4xc HTTP/1.1" 200 -
+2025-03-27 04:37:26,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:37:26,042 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:37:26,043 - INFO -  * Restarting with stat
+2025-03-27 04:37:26,494 - WARNING -  * Debugger is active!
+2025-03-27 04:37:26,496 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:37:26,593 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:26] "GET / HTTP/1.1" 200 -
+2025-03-27 04:37:26,597 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:26] "GET / HTTP/1.1" 200 -
+2025-03-27 04:37:26,643 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:37:26,647 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:37:33,777 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:37:33,881 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:33] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:37:33,924 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:33] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:37:33,927 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:33] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:37:33,941 - INFO - 127.0.0.1 - - [27/Mar/2025 04:37:33] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=Ll08LkSA6ZYupKPVqzrR HTTP/1.1" 200 -
+2025-03-27 04:40:38,466 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:40:38,466 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:40:38,467 - INFO -  * Restarting with stat
+2025-03-27 04:40:38,936 - WARNING -  * Debugger is active!
+2025-03-27 04:40:38,939 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:40:39,070 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:39] "GET / HTTP/1.1" 200 -
+2025-03-27 04:40:39,074 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:39] "GET / HTTP/1.1" 200 -
+2025-03-27 04:40:39,122 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:40:39,126 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:40:48,403 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:40:48,549 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:48] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:40:48,593 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:48] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:40:48,596 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:48] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:40:48,609 - INFO - 127.0.0.1 - - [27/Mar/2025 04:40:48] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=rNGvKzEyjZTRK9IqeqCy HTTP/1.1" 200 -
+2025-03-27 04:47:48,800 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:47:48,800 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:47:48,801 - INFO -  * Restarting with stat
+2025-03-27 04:47:49,270 - WARNING -  * Debugger is active!
+2025-03-27 04:47:49,273 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:47:49,374 - INFO - 127.0.0.1 - - [27/Mar/2025 04:47:49] "GET / HTTP/1.1" 200 -
+2025-03-27 04:47:49,378 - INFO - 127.0.0.1 - - [27/Mar/2025 04:47:49] "GET / HTTP/1.1" 200 -
+2025-03-27 04:47:49,431 - INFO - 127.0.0.1 - - [27/Mar/2025 04:47:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:47:49,435 - INFO - 127.0.0.1 - - [27/Mar/2025 04:47:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:05,740 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:48:05,779 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:05] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:05,814 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:12,350 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:12] "[32mPOST /delete/50969ba6cd1d012a1f8c7fbdf711b4df HTTP/1.1[0m" 302 -
+2025-03-27 04:48:12,375 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:12] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:12,389 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:18,441 - ERROR - Download error: [WinError 2] The system cannot find the file specified: 'C:\\Users\\ASUS\\Desktop\\Secure\\secure_storage\\f3e1f6a1aa6e1f774d3ed946ec6329dc.png'
+2025-03-27 04:48:18,442 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:18] "[32mGET /download/f3e1f6a1aa6e1f774d3ed946ec6329dc HTTP/1.1[0m" 302 -
+2025-03-27 04:48:18,453 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:18] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:18,468 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:24,517 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:24] "[32mPOST /delete/f3e1f6a1aa6e1f774d3ed946ec6329dc HTTP/1.1[0m" 302 -
+2025-03-27 04:48:24,546 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:24] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:24,581 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:28,990 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:28] "[32mPOST /delete/6839dab372a3a1968dfc680f6d9a9068 HTTP/1.1[0m" 302 -
+2025-03-27 04:48:29,017 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:29] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:29,039 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:33,763 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:33] "[32mPOST /delete/fd892da302524b08c238498c085a022a HTTP/1.1[0m" 302 -
+2025-03-27 04:48:33,787 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:33] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:33,818 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:37,549 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:37] "[32mPOST /delete/ab2c1c2a5418a39c9b19e36440e36e6a HTTP/1.1[0m" 302 -
+2025-03-27 04:48:37,571 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:37] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:37,588 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:41,394 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:41] "[32mPOST /delete/e26c01ca4992ce126863cd79a9395fc9 HTTP/1.1[0m" 302 -
+2025-03-27 04:48:41,417 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:41,435 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:50,461 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:50] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:48:50,488 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:50] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:48:50,505 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:48:52,970 - INFO - 127.0.0.1 - - [27/Mar/2025 04:48:52] "GET /download/b639b8abca3580ab5e15eb3e472d3554 HTTP/1.1" 200 -

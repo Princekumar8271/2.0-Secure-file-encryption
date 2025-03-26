@@ -1,0 +1,155 @@
+2025-03-27 03:39:54,827 - ERROR - Database error in audit logging: database is locked
+2025-03-27 03:43:27,143 - ERROR - File storage error: [Errno 2] No such file or directory: 'D:\\'
+2025-03-27 03:44:54,784 - ERROR - Database error in audit logging: database is locked
+2025-03-27 03:45:08,630 - ERROR - File storage error: [Errno 2] No such file or directory: 'D:\\'
+2025-03-27 03:46:45,069 - ERROR - Database error in audit logging: database is locked
+2025-03-27 03:48:22,416 - ERROR - Database error in audit logging: database is locked
+2025-03-27 03:55:12,649 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 03:55:12,650 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 03:55:12,651 - INFO -  * Restarting with stat
+2025-03-27 03:55:12,962 - WARNING -  * Debugger is active!
+2025-03-27 03:55:12,964 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 03:56:22,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 03:56:22,169 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 03:56:22,171 - INFO -  * Restarting with stat
+2025-03-27 03:56:22,616 - WARNING -  * Debugger is active!
+2025-03-27 03:56:22,618 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 03:56:22,728 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:22] "GET / HTTP/1.1" 200 -
+2025-03-27 03:56:22,733 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:22] "GET / HTTP/1.1" 200 -
+2025-03-27 03:56:22,785 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-27 03:56:22,788 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 03:56:33,195 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:33] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-03-27 03:56:33,236 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:33] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 03:56:33,247 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:33] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 03:56:33,287 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:33] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=frv8HW3opWuEsF4e9XAL HTTP/1.1" 200 -
+2025-03-27 03:56:33,299 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:33] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 03:56:57,511 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:57] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-03-27 03:56:57,535 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:57] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 03:56:57,535 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:57] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 03:56:57,546 - INFO - 127.0.0.1 - - [27/Mar/2025 03:56:57] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=frv8HW3opWuEsF4e9XAL HTTP/1.1[0m" 304 -
+2025-03-27 03:59:27,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 03:59:27,769 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 03:59:27,771 - INFO -  * Restarting with stat
+2025-03-27 03:59:28,215 - WARNING -  * Debugger is active!
+2025-03-27 03:59:28,217 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 03:59:28,325 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:28] "GET / HTTP/1.1" 200 -
+2025-03-27 03:59:28,330 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:28] "GET / HTTP/1.1" 200 -
+2025-03-27 03:59:28,377 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 03:59:28,382 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 03:59:34,600 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:34] "GET /register HTTP/1.1" 200 -
+2025-03-27 03:59:34,625 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 03:59:41,690 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:41] "GET /login HTTP/1.1" 200 -
+2025-03-27 03:59:41,712 - INFO - 127.0.0.1 - - [27/Mar/2025 03:59:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:00:14,452 - ERROR - Database error in audit logging: database is locked
+2025-03-27 04:00:14,462 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:00:14,614 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:14] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:00:14,637 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:14] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 04:00:14,639 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:14] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 04:00:14,650 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:14] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=aTWrfcNgQ5iaKbWZHYMY HTTP/1.1" 200 -
+2025-03-27 04:00:14,673 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:14] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 04:00:19,344 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:19] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:00:19,361 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:00:19,363 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:00:19,374 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=aTWrfcNgQ5iaKbWZHYMY HTTP/1.1[0m" 304 -
+2025-03-27 04:00:19,386 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-27 04:00:28,482 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:28] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-03-27 04:00:28,511 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:28] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:00:28,513 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:28] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:00:28,523 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:28] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=aTWrfcNgQ5iaKbWZHYMY HTTP/1.1" 200 -
+2025-03-27 04:00:28,528 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:28] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-27 04:00:30,745 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:30] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-03-27 04:00:30,759 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:00:30,759 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:00:30,771 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=aTWrfcNgQ5iaKbWZHYMY HTTP/1.1[0m" 304 -
+2025-03-27 04:00:30,780 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-27 04:00:49,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:00:49,493 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:00:49,496 - INFO -  * Restarting with stat
+2025-03-27 04:00:49,881 - WARNING -  * Debugger is active!
+2025-03-27 04:00:49,883 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:00:49,981 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:49] "GET / HTTP/1.1" 200 -
+2025-03-27 04:00:49,985 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:49] "GET / HTTP/1.1" 200 -
+2025-03-27 04:00:50,031 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:00:50,035 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:00:54,925 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:54] "GET /register HTTP/1.1" 200 -
+2025-03-27 04:00:54,944 - INFO - 127.0.0.1 - - [27/Mar/2025 04:00:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:01:01,658 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:01] "POST /register HTTP/1.1" 200 -
+2025-03-27 04:01:01,674 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:01:05,180 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:05] "GET /login HTTP/1.1" 200 -
+2025-03-27 04:01:05,197 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:01:35,015 - ERROR - Database error in audit logging: database is locked
+2025-03-27 04:01:35,024 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:01:35,096 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:35] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-03-27 04:01:35,117 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:01:35,118 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-27 04:01:35,133 - INFO - 127.0.0.1 - - [27/Mar/2025 04:01:35] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=xAHBizYstubp2yeqPeoD HTTP/1.1" 200 -
+2025-03-27 04:03:48,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 04:03:48,111 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 04:03:48,112 - INFO -  * Restarting with stat
+2025-03-27 04:03:48,537 - WARNING -  * Debugger is active!
+2025-03-27 04:03:48,539 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:03:48,652 - INFO - 127.0.0.1 - - [27/Mar/2025 04:03:48] "GET / HTTP/1.1" 200 -
+2025-03-27 04:03:48,656 - INFO - 127.0.0.1 - - [27/Mar/2025 04:03:48] "GET / HTTP/1.1" 200 -
+2025-03-27 04:03:48,704 - INFO - 127.0.0.1 - - [27/Mar/2025 04:03:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:03:48,709 - INFO - 127.0.0.1 - - [27/Mar/2025 04:03:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:04:22,106 - ERROR - Database error in audit logging: database is locked
+2025-03-27 04:04:22,119 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:04:22,135 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:22] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:04:22,172 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:04:44,306 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:44] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:04:44,315 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:44] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:04:44,334 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:04:55,917 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:55] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:04:55,928 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:55] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:04:55,948 - INFO - 127.0.0.1 - - [27/Mar/2025 04:04:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:06:37,908 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\app.py', reloading
+2025-03-27 04:06:37,943 - INFO -  * Restarting with stat
+2025-03-27 04:06:38,299 - WARNING -  * Debugger is active!
+2025-03-27 04:06:38,301 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:06:38,410 - INFO - 127.0.0.1 - - [27/Mar/2025 04:06:38] "GET / HTTP/1.1" 200 -
+2025-03-27 04:06:38,457 - INFO - 127.0.0.1 - - [27/Mar/2025 04:06:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:06:59,892 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\app.py', reloading
+2025-03-27 04:06:59,919 - INFO -  * Restarting with stat
+2025-03-27 04:07:00,277 - WARNING -  * Debugger is active!
+2025-03-27 04:07:00,278 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:07:00,383 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:00] "GET / HTTP/1.1" 200 -
+2025-03-27 04:07:00,425 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:07:29,357 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\app.py', reloading
+2025-03-27 04:07:29,384 - INFO -  * Restarting with stat
+2025-03-27 04:07:29,744 - WARNING -  * Debugger is active!
+2025-03-27 04:07:29,747 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:07:29,855 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:29] "GET / HTTP/1.1" 200 -
+2025-03-27 04:07:29,897 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:07:45,789 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:45] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-03-27 04:07:45,816 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:45] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 04:07:45,819 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:45] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 04:07:45,838 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=DjifBfhZUYPXSqDzNytM HTTP/1.1" 200 -
+2025-03-27 04:07:45,863 - INFO - 127.0.0.1 - - [27/Mar/2025 04:07:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 04:08:00,076 - ERROR - Database error in audit logging: database is locked
+2025-03-27 04:08:00,084 - INFO - 127.0.0.1 - - [27/Mar/2025 04:08:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:08:59,497 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\core\\auth.py', reloading
+2025-03-27 04:08:59,530 - INFO -  * Restarting with stat
+2025-03-27 04:08:59,935 - WARNING -  * Debugger is active!
+2025-03-27 04:08:59,937 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:09:00,066 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:00] "GET / HTTP/1.1" 200 -
+2025-03-27 04:09:00,114 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:09:16,292 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\app.py', reloading
+2025-03-27 04:09:16,334 - INFO -  * Restarting with stat
+2025-03-27 04:09:16,732 - WARNING -  * Debugger is active!
+2025-03-27 04:09:16,734 - INFO -  * Debugger PIN: 970-617-254
+2025-03-27 04:09:16,842 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:16] "GET / HTTP/1.1" 200 -
+2025-03-27 04:09:16,886 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:09:33,369 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-27 04:09:33,376 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:33] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:09:33,395 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:09:47,028 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:47] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-27 04:09:47,033 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:47] "GET /dashboard HTTP/1.1" 200 -
+2025-03-27 04:09:47,047 - INFO - 127.0.0.1 - - [27/Mar/2025 04:09:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-27 04:15:02,423 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Secure\\core\\security.py', reloading
+2025-03-27 04:15:02,464 - INFO -  * Restarting with stat
+2025-03-27 04:15:13,908 - INFO -  * Restarting with stat
