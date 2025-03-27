@@ -22,7 +22,7 @@ file_manager = SecureFileManager()
 def index():
     if 'token' in session:
         return redirect(url_for('dashboard'))
-    return render_template('login.html')
+    return render_template('explanation.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -193,6 +193,10 @@ def delete_file(file_id):
         flash('Error deleting file.', 'error')
     
     return redirect(url_for('dashboard'))
+
+@app.route('/explanation')
+def explanation():
+    return render_template('explanation.html')
 
 if __name__ == '__main__':
     os.makedirs('temp', exist_ok=True)

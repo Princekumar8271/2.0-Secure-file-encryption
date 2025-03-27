@@ -24,8 +24,42 @@ body {
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Aligns brand and nav links on opposite sides */
     align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    flex-grow: 1; /* Ensures brand stays on the left */
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end; /* Aligns nav links to the right */
+    flex-grow: 1; /* Ensures nav links stay on the right */
+}
+
+.navbar-nav li {
+    display: inline;
+}
+
+.navbar-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.navbar-nav a:hover {
+    color: var(--primary-color);
+}
+
+.navbar-nav i {
+    margin-right: 0.5rem;
 }
 
 .container {
@@ -204,4 +238,507 @@ select#encryption_level {
     padding: 1rem;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Neural Network Background */
+.network-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #050a14;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#network-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Glassmorphism for navbar - Enhanced */
+.navbar {
+    background: rgba(10, 25, 41, 0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 1.2rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    margin-right: auto;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    display: inline;
+}
+
+.navbar-nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    position: relative;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover {
+    color: #00e5ff;
+    background: rgba(0, 229, 255, 0.1);
+}
+
+.navbar-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #00e5ff;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-nav a:hover::after {
+    width: 70%;
+}
+
+.navbar-nav i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Special styling for logout button */
+.navbar-nav li:last-child a {
+    background: linear-gradient(45deg, rgba(255, 26, 48, 0.2), rgba(255, 90, 37, 0.2));
+    border: 1px solid rgba(255, 26, 48, 0.3);
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.navbar-nav li:last-child a:hover {
+    background: linear-gradient(45deg, rgba(255, 26, 48, 0.4), rgba(255, 90, 37, 0.4));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 26, 48, 0.3);
+}
+
+.navbar-nav li:last-child a::after {
+    display: none;
+}
+
+/* Glassmorphism for containers */
+.container {
+    background: rgba(10, 25, 41, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #e0e0e0;
+}
+
+.explanation-content h1 {
+    color: #ff3d4a; /* Changed to red */
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 10px rgba(255, 61, 74, 0.5);
+}
+
+.explanation-content li i {
+    color: #ff3d4a; /* Changed to red */
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.shield-icon {
+    font-size: 5rem;
+    color: #ff3d4a; /* Changed to red */
+    transition: all 0.5s;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 20px rgba(255, 61, 74, 0.8);
+}
+
+.login-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background: linear-gradient(45deg, #ff3d4a, #ff7b25); /* Red to orange gradient */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 61, 74, 0.4);
+}
+
+.login-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 20px rgba(255, 61, 74, 0.6);
+}
+
+.explanation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 6rem;
+    color: #e0e0e0;
+    min-height: 90vh;
+    overflow: hidden;
+    gap: 5rem;
+    z-index: 1;
+}
+
+.explanation-content {
+    flex: 1;
+    max-width: 45%;
+    background-color: rgba(10, 25, 41, 0.7);
+    padding: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 229, 255, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px; /* Reduced from 600px */
+    z-index: 2; /* Higher than container */
+}
+
+.security-features {
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+    background-color: rgba(10, 25, 41, 0.7);
+    padding: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 229, 255, 0.1);
+    animation: slideIn 1s ease-in-out;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px; /* Reduced from 600px */
+    z-index: 2; /* Higher than container */
+}
+
+/* Adjust feature details container to fit better */
+.features-detail-container {
+    margin-top: 2rem; /* Reduced from 3rem */
+    padding: 1.5rem; /* Reduced from 2rem */
+    background: rgba(10, 10, 20, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem; /* Reduced from 2rem */
+    z-index: 3; /* Higher than containers */
+}
+
+.explanation-content h1 {
+    color: #00e5ff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem; /* Increased spacing after heading */
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+.explanation-content p {
+    margin-bottom: 2rem; /* Increased spacing between paragraphs */
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.explanation-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem; /* Added space above list */
+}
+
+.explanation-content li {
+    margin-bottom: 1.5rem; /* Increased spacing between list items */
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+    padding: 0.5rem 0; /* Added vertical padding to list items */
+}
+
+.security-features {
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+    background-color: rgba(10, 25, 41, 0.7);
+    padding: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 229, 255, 0.1);
+    animation: slideIn 1s ease-in-out;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    min-height: 600px; /* Set minimum height to match containers */
+}
+
+.security-features h2 {
+    color: #00e5ff;
+    margin-bottom: 2.5rem; /* Increased spacing after heading */
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+.shield-icon {
+    font-size: 5rem;
+    color: #00e5ff;
+    transition: all 0.5s;
+    margin-bottom: 2.5rem; /* Increased spacing after icon */
+    text-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
+}
+
+/* Glassmorphism container for feature details */
+.features-detail-container {
+    margin-top: 3rem; /* Increased top margin */
+    padding: 2rem; /* Increased padding */
+    background: rgba(10, 10, 20, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem; /* Increased gap between feature items */
+}
+
+.feature-detail {
+    padding: 1.5rem; /* Increased padding */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 0.5rem; /* Added bottom margin */
+}
+
+.feature-detail i {
+    font-size: 2.5rem; /* Slightly larger icons */
+    margin-bottom: 1.5rem; /* More space after icons */
+    display: block;
+}
+
+.feature-detail h3 {
+    font-size: 1.3rem; /* Slightly larger headings */
+    margin-bottom: 1rem; /* More space after headings */
+    color: #ffffff;
+}
+
+.feature-detail p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+}
+
+/* Update security features container to accommodate the new content */
+.security-features {
+    text-align: center;
+    background-color: rgba(10, 25, 41, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+}
+
+/* Add different colors for each feature icon */
+.feature-detail:nth-child(1) i {
+    color: #ff3d4a; /* Red */
+}
+
+.feature-detail:nth-child(2) i {
+    color: #4CAF50; /* Green */
+}
+
+.feature-detail:nth-child(3) i {
+    color: #2196F3; /* Blue */
+}
+
+/* Enhanced Login Page Styling */
+.login-page {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.auth-container.enhanced {
+    width: 450px;
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 3rem;
+    background: rgba(10, 25, 41, 0.7);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 229, 255, 0.1);
+    color: #e0e0e0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 2;
+    animation: fadeIn 1s ease-in-out;
+    transition: all 0.3s ease;
+}
+
+.auth-container.enhanced:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 229, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.auth-container.enhanced h2 {
+    color: #00e5ff;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(0, 229, 255, 0.7);
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+.auth-container.enhanced .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.auth-container.enhanced .form-group label {
+    color: #e0e0e0;
+    margin-bottom: 0.8rem;
+    display: block;
+    font-size: 1.1rem;
+}
+
+.auth-container.enhanced .form-group input {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.auth-container.enhanced .form-group input:focus {
+    outline: none;
+    border-color: #00e5ff;
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.form-group-icon {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.auth-container.enhanced .form-group input:focus + .form-group-icon {
+    color: #00e5ff;
+}
+
+.glow-button {
+    background: linear-gradient(45deg, #ff1a30, #ff5a25);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(255, 26, 48, 0.5);
+    border: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.glow-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 25px rgba(255, 26, 48, 0.7), 0 0 20px rgba(255, 26, 48, 0.5);
+    background: linear-gradient(45deg, #ff0020, #ff4a15);
+}
+
+.register-link {
+    position: relative;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.register-link:hover {
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.8);
+}
+
+.register-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #00e5ff;
+    transition: width 0.3s;
+}
+
+.register-link:hover:after {
+    width: 100%;
 }
