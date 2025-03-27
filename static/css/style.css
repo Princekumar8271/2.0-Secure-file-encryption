@@ -523,77 +523,6 @@ select#encryption_level {
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0, 229, 255, 0.1);
     animation: slideIn 1s ease-in-out;
-    border: 1px solid rgba(0, 229, 255, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    min-height: 600px; /* Set minimum height to match containers */
-}
-
-.security-features h2 {
-    color: #00e5ff;
-    margin-bottom: 2.5rem; /* Increased spacing after heading */
-    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
-}
-
-.shield-icon {
-    font-size: 5rem;
-    color: #00e5ff;
-    transition: all 0.5s;
-    margin-bottom: 2.5rem; /* Increased spacing after icon */
-    text-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
-}
-
-/* Glassmorphism container for feature details */
-.features-detail-container {
-    margin-top: 3rem; /* Increased top margin */
-    padding: 2rem; /* Increased padding */
-    background: rgba(10, 10, 20, 0.3);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem; /* Increased gap between feature items */
-}
-
-.feature-detail {
-    padding: 1.5rem; /* Increased padding */
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    transition: transform 0.3s, box-shadow 0.3s;
-    margin-bottom: 0.5rem; /* Added bottom margin */
-}
-
-.feature-detail i {
-    font-size: 2.5rem; /* Slightly larger icons */
-    margin-bottom: 1.5rem; /* More space after icons */
-    display: block;
-}
-
-.feature-detail h3 {
-    font-size: 1.3rem; /* Slightly larger headings */
-    margin-bottom: 1rem; /* More space after headings */
-    color: #ffffff;
-}
-
-.feature-detail p {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.5;
-}
-
-/* Update security features container to accommodate the new content */
-.security-features {
-    text-align: center;
-    background-color: rgba(10, 25, 41, 0.7);
-    padding: 2rem;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    animation: slideIn 1s ease-in-out;
     border: 1px solid rgba(255, 255, 255, 0.1);
     max-width: 400px;
 }
@@ -611,36 +540,27 @@ select#encryption_level {
     color: #2196F3; /* Blue */
 }
 
-/* Enhanced Login Page Styling */
-.login-page {
-    position: relative;
-    min-height: 100vh;
+/* Content without container for login/register pages */
+.content-no-container {
+    width: 100%;
+    min-height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
-    padding: 2rem;
 }
 
+/* Enhanced login container */
 .auth-container.enhanced {
-    width: 450px;
-    max-width: 90%;
-    margin: 2rem auto;
-    padding: 3rem;
-    background: rgba(10, 25, 41, 0.7);
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 229, 255, 0.1);
-    color: #e0e0e0;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    z-index: 2;
-    animation: fadeIn 1s ease-in-out;
-    transition: all 0.3s ease;
-}
-
-.auth-container.enhanced:hover {
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 229, 255, 0.2);
-    transform: translateY(-5px);
+    background: rgba(10, 25, 41, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 229, 255, 0.1);
+    max-width: 450px;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 12px;
 }
 
 .auth-container.enhanced h2 {
@@ -648,12 +568,12 @@ select#encryption_level {
     margin-bottom: 2rem;
     text-align: center;
     text-shadow: 0 0 15px rgba(0, 229, 255, 0.7);
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
 }
 
 .auth-container.enhanced .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     position: relative;
 }
 
@@ -661,49 +581,50 @@ select#encryption_level {
     color: #e0e0e0;
     margin-bottom: 0.8rem;
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .auth-container.enhanced .form-group input {
-    background: rgba(255, 255, 255, 0.07);
+    background: rgba(30, 40, 60, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: white;
-    padding: 1rem;
-    padding-left: 3rem;
+    padding: 1.2rem;
+    padding-left: 3.5rem;
     border-radius: 8px;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: all 0.3s ease;
-}
-
-.auth-container.enhanced .form-group input:focus {
-    outline: none;
-    border-color: #00e5ff;
-    box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
-    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 1;
 }
 
 .form-group-icon {
     position: absolute;
-    left: 1rem;
-    bottom: 1rem;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1.2rem;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(10%);
+    color: rgba(0, 229, 255, 0.8);
+    font-size: 1.5rem;
     transition: all 0.3s ease;
+    z-index: 2;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
 }
 
 .auth-container.enhanced .form-group input:focus + .form-group-icon {
     color: #00e5ff;
+    text-shadow: 0 0 15px rgba(0, 229, 255, 0.8);
+    transform: translateY(10%) scale(1.1);
 }
 
 .glow-button {
     background: linear-gradient(45deg, #ff1a30, #ff5a25);
     width: 100%;
-    padding: 1rem;
-    margin-top: 1.5rem;
+    padding: 1.2rem;
+    margin-top: 2rem;
     border-radius: 8px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     transition: all 0.3s;
     box-shadow: 0 4px 15px rgba(255, 26, 48, 0.5);
     border: none;
