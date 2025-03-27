@@ -132,25 +132,177 @@ body {
     color: #a94442;
 }
 
+/* Enhance dashboard styling with glassmorphism */
 .encryption-dashboard {
     padding: 2rem;
+    color: #e0e0e0;
 }
 
 .encryption-container {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 2rem;
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove box-shadow */
+    padding: 2.5rem; /* Retain padding for layout */
+    color: #e0e0e0; /* Retain text color */
 }
 
 .upload-section {
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .encryption-form {
     max-width: 600px;
+}
+
+/* Style form elements to match the theme */
+select#encryption_level {
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(30, 40, 60, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+input[type="file"] {
+    background: rgba(30, 40, 60, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0.8rem;
+    width: 100%;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the encrypt button */
+.btn-primary, button[type="submit"] {
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    border: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover, button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 25px rgba(76, 175, 80, 0.5);
+    background: linear-gradient(45deg, #43a047, #1e88e5);
+}
+
+/* Style file cards */
+.files-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.file-card {
+    background: rgba(15, 30, 50, 0.5);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: grey;
+}
+
+.file-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 229, 255, 0.1);
+    background: rgba(15, 30, 50, 0.7);
+    border-color: rgba(0, 229, 255, 0.2);
+}
+
+/* Style file actions */
+.file-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.file-actions a, .file-actions button {
+    flex: 1;
+    text-align: center;
+    padding: 0.7rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-actions a.btn-secondary, .file-actions a[href*="download"] {
+    background: linear-gradient(45deg, rgba(33, 150, 243, 0.3), rgba(33, 150, 243, 0.5));
+    color: rgb(11, 5, 48);
+    border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+.file-actions button.btn-danger, .file-actions button[type="submit"] {
+    background: linear-gradient(45deg, rgba(244, 67, 54, 0.3), rgba(244, 67, 54, 0.5));
+    color: rgb(55, 60, 41);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+.file-actions a:hover, .file-actions button:hover {
+    transform: translateY(-3px);
+}
+
+.file-actions a.btn-secondary:hover, .file-actions a[href*="download"]:hover {
+    background: linear-gradient(45deg, rgba(33, 150, 243, 0.5), rgba(33, 150, 243, 0.7));
+    box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+}
+
+.file-actions button.btn-danger:hover, .file-actions button[type="submit"]:hover {
+    background: linear-gradient(45deg, rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.7));
+    box-shadow: 0 5px 15px rgba(244, 67, 54, 0.3);
+}
+
+/* Style encryption status */
+.encryption-status {
+    display: inline-block;
+    background: linear-gradient(45deg, rgba(76, 175, 80, 0.3), rgba(76, 175, 80, 0.5));
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.encryption-date {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.5rem;
+}
+
+/* Style headings */
+.encryption-container h2 {
+    color: #00e5ff;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+    font-size: 1.8rem;
+    border-bottom: 2px solid #00e5ff; /* Add a line below the text */
+    padding-bottom: 0.5rem; /* Add padding to separate the text from the line */
+}
+
+.no-files {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 3rem;
+    font-size: 1.2rem;
 }
 
 .encryption-status {
@@ -363,7 +515,7 @@ select#encryption_level {
 .navbar-nav li:last-child a:hover {
     background: linear-gradient(45deg, rgba(255, 26, 48, 0.4), rgba(255, 90, 37, 0.4));
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(255, 26, 48, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 26, 48, 0.6); /* Increase shadow intensity for glow effect */
 }
 
 .navbar-nav li:last-child a::after {
