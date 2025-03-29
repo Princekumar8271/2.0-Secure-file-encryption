@@ -18,6 +18,13 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 auth_manager = AuthenticationManager()
 file_manager = SecureFileManager()
 
+# Add a context processor to inject responsive design variables
+@app.context_processor
+def inject_responsive_meta():
+    return {
+        'viewport_meta': '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'
+    }
+
 @app.route('/')
 def index():
     if 'token' in session:
@@ -200,5 +207,55 @@ def explanation():
 
 if __name__ == '__main__':
     os.makedirs('temp', exist_ok=True)
+    # Create a CSS directory if it doesn't exist
+    os.makedirs('static/css/responsive', exist_ok=True)
+    
+    # Create a responsive CSS file if it doesn't exist
+    responsive_css_path = 'static/css/responsive/mobile.css'
+    if not os.path.exists(responsive_css_path):
+        with open(responsive_css_path, 'w') as f:
+            f.write("""
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        padding: 0.8rem;
+    }
+    
+    .navbar-brand {
+        margin-bottom: 0.5rem;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+    
+    .auth-container {
+        width: 90%;
+        max-width: none;
+    }
+    
+    .files-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .file-actions {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        margin: 0.2rem 0;
+    }
+}
+""")
+    
     webbrowser.open('http://127.0.0.1:5000')  # Opens default browser
     app.run(debug=True)

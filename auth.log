@@ -1429,3 +1429,309 @@
 2025-03-28 00:55:17,302 - INFO - 127.0.0.1 - - [28/Mar/2025 00:55:17] "GET /dashboard HTTP/1.1" 200 -
 2025-03-28 00:55:17,338 - INFO - 127.0.0.1 - - [28/Mar/2025 00:55:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-03-28 00:55:17,339 - INFO - 127.0.0.1 - - [28/Mar/2025 00:55:17] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 01:01:50,996 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 01:01:50,996 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 01:01:50,998 - INFO -  * Restarting with stat
+2025-03-28 01:01:51,674 - WARNING -  * Debugger is active!
+2025-03-28 01:01:51,678 - INFO -  * Debugger PIN: 970-617-254
+2025-03-28 01:01:51,846 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:51] "GET / HTTP/1.1" 200 -
+2025-03-28 01:01:51,850 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:51] "GET / HTTP/1.1" 200 -
+2025-03-28 01:01:51,943 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:51] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 01:01:51,944 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 01:01:51,948 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:51] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 01:01:51,950 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 01:01:54,426 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:54] "GET /login HTTP/1.1" 200 -
+2025-03-28 01:01:54,453 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 01:01:54,454 - INFO - 127.0.0.1 - - [28/Mar/2025 01:01:54] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 01:02:06,317 - INFO - 127.0.0.1 - - [28/Mar/2025 01:02:06] "GET /login HTTP/1.1" 200 -
+2025-03-28 01:02:06,343 - INFO - 127.0.0.1 - - [28/Mar/2025 01:02:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 01:02:06,348 - INFO - 127.0.0.1 - - [28/Mar/2025 01:02:06] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 02:17:15,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 02:17:15,182 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 02:17:15,184 - INFO -  * Restarting with stat
+2025-03-28 02:17:15,657 - WARNING -  * Debugger is active!
+2025-03-28 02:17:15,660 - INFO -  * Debugger PIN: 970-617-254
+2025-03-28 02:17:15,779 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:15] "GET / HTTP/1.1" 200 -
+2025-03-28 02:17:15,783 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:15] "GET / HTTP/1.1" 200 -
+2025-03-28 02:17:15,841 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:15] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 02:17:15,842 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 02:17:15,845 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:15] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 02:17:15,847 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 02:17:20,618 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:20] "GET /login HTTP/1.1" 200 -
+2025-03-28 02:17:20,635 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 02:17:20,637 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:20] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 02:17:29,661 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 02:17:29,701 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:29] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 02:17:29,723 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 02:17:29,724 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:29] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 02:17:40,508 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:40] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-28 02:17:40,543 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:40] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 02:17:40,570 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 02:17:40,574 - INFO - 127.0.0.1 - - [28/Mar/2025 02:17:40] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:34:04,019 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 11:34:04,019 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:34:04,021 - INFO -  * Restarting with stat
+2025-03-28 11:34:04,856 - WARNING -  * Debugger is active!
+2025-03-28 11:34:04,858 - INFO -  * Debugger PIN: 109-732-845
+2025-03-28 11:34:05,619 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "GET / HTTP/1.1" 200 -
+2025-03-28 11:34:05,624 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "GET / HTTP/1.1" 200 -
+2025-03-28 11:34:05,710 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:34:05,712 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:34:05,716 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:34:05,718 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:34:05,764 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 11:34:35,167 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:35] "GET /login HTTP/1.1" 200 -
+2025-03-28 11:34:35,198 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:34:35,206 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:35] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:34:42,223 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 11:34:42,258 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:42] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:34:42,288 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:34:42,289 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:42] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:35:00,984 - INFO - 127.0.0.1 - - [28/Mar/2025 11:35:00] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:35:01,010 - INFO - 127.0.0.1 - - [28/Mar/2025 11:35:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:35:01,010 - INFO - 127.0.0.1 - - [28/Mar/2025 11:35:01] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:35:04,123 - INFO - 127.0.0.1 - - [28/Mar/2025 11:35:04] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:35:04,152 - INFO - 127.0.0.1 - - [28/Mar/2025 11:35:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:35:04,157 - INFO - 127.0.0.1 - - [28/Mar/2025 11:35:04] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:43:09,002 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 11:43:09,002 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:43:09,004 - INFO -  * Restarting with stat
+2025-03-28 11:43:09,593 - WARNING -  * Debugger is active!
+2025-03-28 11:43:09,596 - INFO -  * Debugger PIN: 109-732-845
+2025-03-28 11:43:09,729 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:09] "GET / HTTP/1.1" 200 -
+2025-03-28 11:43:09,734 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:09] "GET / HTTP/1.1" 200 -
+2025-03-28 11:43:09,815 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:09] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:43:09,818 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:43:09,820 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:09] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:43:09,823 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:43:24,866 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:24] "GET /login HTTP/1.1" 200 -
+2025-03-28 11:43:24,904 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:24] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:43:24,906 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:43:43,032 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:43] "POST /login HTTP/1.1" 200 -
+2025-03-28 11:43:43,055 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:43:43,057 - INFO - 127.0.0.1 - - [28/Mar/2025 11:43:43] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:46:04,543 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:04] "GET /login HTTP/1.1" 200 -
+2025-03-28 11:46:04,594 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:46:04,600 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:04] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:46:12,564 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 11:46:12,601 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:12] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:46:12,627 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:46:12,628 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:12] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:46:17,138 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:17] "[32mPOST /delete/1f7fd8c9d83b9b7ed938dfff8cb5aa8f HTTP/1.1[0m" 302 -
+2025-03-28 11:46:17,165 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:17] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:46:17,192 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:17] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:46:17,195 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:46:29,856 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:29] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-28 11:46:29,881 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:29] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:46:29,902 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:46:29,903 - INFO - 127.0.0.1 - - [28/Mar/2025 11:46:29] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:06,013 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:06] "GET /download/eba795285f439b9b905476ce3275ed9d HTTP/1.1" 200 -
+2025-03-28 11:47:51,019 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 11:47:51,027 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:47:51,060 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:51,062 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:51,823 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 11:47:51,833 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:47:51,859 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:51,867 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:52,760 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 11:47:52,771 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:52] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:47:52,796 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:52] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:52,797 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:52,996 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 11:47:53,006 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:53] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 11:47:53,032 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:53,034 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:53] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:54,049 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 11:47:54,058 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:54] "GET /login HTTP/1.1" 200 -
+2025-03-28 11:47:54,085 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:54] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:54,086 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:55,463 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:55] "GET / HTTP/1.1" 200 -
+2025-03-28 11:47:55,492 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:55] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:47:55,493 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:58,946 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:58] "GET /login HTTP/1.1" 200 -
+2025-03-28 11:47:58,980 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:47:58,986 - INFO - 127.0.0.1 - - [28/Mar/2025 11:47:58] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 11:48:09,164 - INFO - 127.0.0.1 - - [28/Mar/2025 11:48:09] "GET / HTTP/1.1" 200 -
+2025-03-28 11:48:09,190 - INFO - 127.0.0.1 - - [28/Mar/2025 11:48:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 11:48:09,192 - INFO - 127.0.0.1 - - [28/Mar/2025 11:48:09] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:06:25,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 13:06:25,995 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 13:06:25,998 - INFO -  * Restarting with stat
+2025-03-28 13:06:27,302 - WARNING -  * Debugger is active!
+2025-03-28 13:06:27,309 - INFO -  * Debugger PIN: 109-732-845
+2025-03-28 13:06:46,272 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 13:06:46,272 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 13:06:46,275 - INFO -  * Restarting with stat
+2025-03-28 13:06:47,462 - WARNING -  * Debugger is active!
+2025-03-28 13:06:47,470 - INFO -  * Debugger PIN: 109-732-845
+2025-03-28 13:07:05,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 13:07:05,620 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 13:07:05,623 - INFO -  * Restarting with stat
+2025-03-28 13:07:06,540 - WARNING -  * Debugger is active!
+2025-03-28 13:07:06,543 - INFO -  * Debugger PIN: 109-732-845
+2025-03-28 13:07:06,753 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:06] "GET / HTTP/1.1" 200 -
+2025-03-28 13:07:06,768 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:06] "GET / HTTP/1.1" 200 -
+2025-03-28 13:07:06,859 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:06,865 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:06] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:06,865 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:06,871 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:06] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:13,467 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:13] "GET /login HTTP/1.1" 200 -
+2025-03-28 13:07:13,504 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:13,517 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:13] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:21,025 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:21] "POST /login HTTP/1.1" 200 -
+2025-03-28 13:07:21,063 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:21,086 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:21] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:28,032 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 13:07:28,065 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:28] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 13:07:28,105 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:28,106 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:28] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:47,400 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:47] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 13:07:47,435 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:47,440 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:47] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:48,292 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:48] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 13:07:48,318 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:48,319 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:48] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:51,016 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 13:07:51,054 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:51] "GET /login HTTP/1.1" 200 -
+2025-03-28 13:07:51,096 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:51,104 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:51] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 13:07:53,552 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:53] "GET /register HTTP/1.1" 200 -
+2025-03-28 13:07:53,585 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 13:07:53,596 - INFO - 127.0.0.1 - - [28/Mar/2025 13:07:53] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:39:56,691 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 21:39:56,692 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 21:39:56,695 - INFO -  * Restarting with stat
+2025-03-28 21:39:57,366 - WARNING -  * Debugger is active!
+2025-03-28 21:39:57,369 - INFO -  * Debugger PIN: 109-732-845
+2025-03-28 21:39:57,729 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "GET / HTTP/1.1" 200 -
+2025-03-28 21:39:57,733 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "GET / HTTP/1.1" 200 -
+2025-03-28 21:39:57,839 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:39:57,840 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:39:57,849 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:39:57,856 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:39:57,901 - INFO - 127.0.0.1 - - [28/Mar/2025 21:39:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 21:40:53,629 - INFO - 127.0.0.1 - - [28/Mar/2025 21:40:53] "GET /login HTTP/1.1" 200 -
+2025-03-28 21:40:53,669 - INFO - 127.0.0.1 - - [28/Mar/2025 21:40:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:40:53,676 - INFO - 127.0.0.1 - - [28/Mar/2025 21:40:53] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:41:19,696 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 21:41:19,734 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:19] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 21:41:19,758 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:41:19,761 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:19] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:41:24,877 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:24] "[32mPOST /delete/eba795285f439b9b905476ce3275ed9d HTTP/1.1[0m" 302 -
+2025-03-28 21:41:24,911 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:24] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 21:41:24,944 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:41:24,945 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:24] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:41:36,258 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:36] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 21:41:36,285 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:36] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 21:41:36,286 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:41:37,189 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:37] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 21:41:37,211 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 21:41:37,213 - INFO - 127.0.0.1 - - [28/Mar/2025 21:41:37] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 22:18:24,368 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:24] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 22:18:24,407 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 22:18:24,412 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:24] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 22:18:28,900 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 22:18:28,908 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:28] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:18:28,942 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 22:18:28,944 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:28] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 22:18:31,215 - INFO - 127.0.0.1 - - [28/Mar/2025 22:18:31] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-03-28 22:19:42,485 - INFO - 127.0.0.1 - - [28/Mar/2025 22:19:42] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:19:42,511 - INFO - 127.0.0.1 - - [28/Mar/2025 22:19:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 22:19:42,512 - INFO - 127.0.0.1 - - [28/Mar/2025 22:19:42] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 22:21:22,911 - INFO - 127.0.0.1 - - [28/Mar/2025 22:21:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 22:21:23,010 - INFO - 127.0.0.1 - - [28/Mar/2025 22:21:23] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 22:21:23,060 - INFO - 127.0.0.1 - - [28/Mar/2025 22:21:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 22:21:23,098 - INFO - 127.0.0.1 - - [28/Mar/2025 22:21:23] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 22:27:12,439 - INFO - 127.0.0.1 - - [28/Mar/2025 22:27:12] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:27:12,464 - INFO - 127.0.0.1 - - [28/Mar/2025 22:27:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 22:27:12,464 - INFO - 127.0.0.1 - - [28/Mar/2025 22:27:12] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-28 22:27:15,922 - INFO - 127.0.0.1 - - [28/Mar/2025 22:27:15] "GET /register HTTP/1.1" 200 -
+2025-03-28 22:27:15,959 - INFO - 127.0.0.1 - - [28/Mar/2025 22:27:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-28 22:27:15,959 - INFO - 127.0.0.1 - - [28/Mar/2025 22:27:15] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:27:45,553 - INFO - 127.0.0.1 - - [29/Mar/2025 00:27:45] "GET /register HTTP/1.1" 200 -
+2025-03-29 00:27:45,618 - INFO - 127.0.0.1 - - [29/Mar/2025 00:27:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:27:45,624 - INFO - 127.0.0.1 - - [29/Mar/2025 00:27:45] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:06,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 00:35:06,991 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 00:35:06,995 - INFO -  * Restarting with stat
+2025-03-29 00:35:07,494 - WARNING -  * Debugger is active!
+2025-03-29 00:35:07,496 - INFO -  * Debugger PIN: 109-732-845
+2025-03-29 00:35:07,599 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:07] "GET / HTTP/1.1" 200 -
+2025-03-29 00:35:07,602 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:07] "GET / HTTP/1.1" 200 -
+2025-03-29 00:35:07,662 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:35:07,666 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:35:07,667 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:07] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:07,670 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:07] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:10,482 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:10] "GET /login HTTP/1.1" 200 -
+2025-03-29 00:35:10,500 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:10] "GET /static/css/responsive/mobile.css HTTP/1.1" 200 -
+2025-03-29 00:35:10,503 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:35:10,503 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:10] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:12,847 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:12] "GET /register HTTP/1.1" 200 -
+2025-03-29 00:35:12,872 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:35:12,875 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:12] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:35:12,877 - INFO - 127.0.0.1 - - [29/Mar/2025 00:35:12] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:36:22,981 - INFO - 127.0.0.1 - - [29/Mar/2025 00:36:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:36:22,981 - INFO - 127.0.0.1 - - [29/Mar/2025 00:36:22] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:37:45,391 - INFO - 127.0.0.1 - - [29/Mar/2025 00:37:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:37:47,921 - INFO - 127.0.0.1 - - [29/Mar/2025 00:37:47] "GET /login HTTP/1.1" 200 -
+2025-03-29 00:37:50,004 - INFO - 127.0.0.1 - - [29/Mar/2025 00:37:50] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:37:50,004 - INFO - 127.0.0.1 - - [29/Mar/2025 00:37:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:37:50,006 - INFO - 127.0.0.1 - - [29/Mar/2025 00:37:50] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:38:10,369 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-29 00:38:12,410 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:12] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 00:38:14,486 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:38:14,498 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:14] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:38:14,500 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:14] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:38:40,309 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:40] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 00:38:42,385 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:38:42,401 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:42] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:38:42,402 - INFO - 127.0.0.1 - - [29/Mar/2025 00:38:42] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:39:01,465 - INFO - 127.0.0.1 - - [29/Mar/2025 00:39:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:39:01,465 - INFO - 127.0.0.1 - - [29/Mar/2025 00:39:01] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:01,336 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 00:43:03,370 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:03] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 00:43:05,450 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:05,452 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:05] "GET /static/css/responsive/mobile.css HTTP/1.1" 200 -
+2025-03-29 00:43:05,453 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:05] "GET /static/js/network-animation.js HTTP/1.1" 200 -
+2025-03-29 00:43:14,938 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-29 00:43:16,957 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:16] "GET /login HTTP/1.1" 200 -
+2025-03-29 00:43:19,057 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:19,061 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:19] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:19,063 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:19] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:43:21,346 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:21] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-03-29 00:43:23,376 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:23] "GET /login HTTP/1.1" 200 -
+2025-03-29 00:43:25,445 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:25,447 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:25] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:25,450 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:25] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:43:55,143 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-29 00:43:55,180 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:55] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 00:43:55,207 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:55,208 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:55] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:43:55,211 - INFO - 127.0.0.1 - - [29/Mar/2025 00:43:55] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -
+2025-03-29 00:44:04,518 - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 00:44:04,526 - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:04] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 00:44:04,557 - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:04] "[36mGET /static/css/responsive/mobile.css HTTP/1.1[0m" 304 -
+2025-03-29 00:44:04,558 - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:04] "GET /static/js/network-animation.js HTTP/1.1" 200 -
+2025-03-29 00:44:04,566 - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 11:37:06,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 11:37:06,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 11:37:06,251 - INFO -  * Restarting with stat
+2025-03-29 11:37:06,803 - WARNING -  * Debugger is active!
+2025-03-29 11:37:06,806 - INFO -  * Debugger PIN: 109-732-845
+2025-03-29 11:37:06,945 - INFO - 127.0.0.1 - - [29/Mar/2025 11:37:06] "GET / HTTP/1.1" 200 -
+2025-03-29 11:37:06,949 - INFO - 127.0.0.1 - - [29/Mar/2025 11:37:06] "GET / HTTP/1.1" 200 -
+2025-03-29 11:37:07,028 - INFO - 127.0.0.1 - - [29/Mar/2025 11:37:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 11:37:07,029 - INFO - 127.0.0.1 - - [29/Mar/2025 11:37:07] "GET /static/js/network-animation.js HTTP/1.1" 200 -
+2025-03-29 11:37:07,032 - INFO - 127.0.0.1 - - [29/Mar/2025 11:37:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-29 11:37:07,035 - INFO - 127.0.0.1 - - [29/Mar/2025 11:37:07] "[36mGET /static/js/network-animation.js HTTP/1.1[0m" 304 -

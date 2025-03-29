@@ -33,4 +33,11 @@
     <script src="{{ url_for('static', filename='js/network-animation.js') }}"></script>
     {% block scripts %}{% endblock %}
 </body>
-</html>
+</html><!DOCTYPE html>
+<html>
+<head>
+    {{ viewport_meta|safe }}
+    <!-- Your existing head content -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive/mobile.css') }}">
+</head>
+<!-- Rest of your template -->
